@@ -1,0 +1,162 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+        }
+        
+        body {
+            
+            background-size: cover;
+            background-repeat: no-repeat;
+            
+            margin: 0;
+           
+           
+           
+            color: black;
+            font-family: verdana;
+            
+        }
+   
+/* Base styles for all devices */
+body {
+    font-size: 20px; /* Default font size */
+    margin: 0;
+    padding: 0;
+}
+
+/* Styles for screens larger than 600px */
+@media only screen and (min-width: 600px) {
+    body {
+        font-size: 22px; /* Increase font size for larger screens */
+    }
+}
+
+/* Styles for screens larger than 900px */
+@media only screen and (min-width: 900px) {
+    body {
+        font-size: 24px; /* Further increase font size for even larger screens */
+    }
+}
+
+.first{
+    width: 100%;
+   
+    background-color: white;
+}
+.content{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+/* From Uiverse.io by zanina-yassine */ 
+.button {
+font-size: 20px;
+text-decoration: none;
+  min-width: 120px;
+
+  position: relative;
+  cursor: pointer;
+
+  padding: 20px 80px;
+  border: 0;
+  border-radius: 15px;
+
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.1);
+  background: radial-gradient(
+    ellipse at bottom,
+    rgba(71, 81, 92, 1) 0%,
+    rgba(11, 21, 30, 1) 45%
+  );
+
+  color: rgb(255, 255, 255, 0.66);
+
+  transition: all 1s cubic-bezier(0.15, 0.83, 0.66, 1);
+}
+
+.button::before {
+  content: "";
+  width: 80%;
+  height: 5px;
+
+  position: absolute;
+  bottom: 0;
+  left: 80%;
+
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 1) 50%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  opacity: 0.2;
+
+  transition: all 1s cubic-bezier(0.15, 0.83, 0.66, 1);
+}
+
+.button:hover {
+  color: rgb(255, 255, 255, 1);
+  transform: scale(1.1) translateY(-3px);
+}
+
+.button:hover::before {
+  opacity: 1;
+}
+.prefound{
+    height: 7%;
+    width: 50%;
+}
+.picture{
+display: block;
+    height: 70px;
+    width: 50px;
+    border: 5px;
+    
+}
+.mathpic{
+    display: block;
+    height: 70px;
+    width: 50px;
+    border: 5px;
+}
+
+
+/* From Uiverse.io by Mhyar-nsi */ 
+.buttonlogo {
+  background-color: #f3f7fe;
+  color: #3b82f6;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  width: 100px;
+  height: 45px;
+  transition: 0.3s;
+}
+
+.buttonlogo:hover {
+  background-color: #3b82f6;
+  box-shadow: 0 0 0 5px #3b83f65f;
+  color: #fff;
+}
+
+
+        }
+        .photo-item {
+            margin: 10px;
+           
+           
+            
+        }
+        img {
+            width: 150px; /* Set the width of the images */
+            height: auto; /* Maintain aspect ratio */
+        }
+
+.prefound2{
+    height: 10%;
+    width: 70%;
+}
